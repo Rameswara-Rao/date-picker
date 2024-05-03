@@ -118,3 +118,8 @@
 .text-range{
   color: #8e8e8e;
 }
+
+.selector-option{
+  background-color: #10131a;
+  font-family: poppins;
+}
