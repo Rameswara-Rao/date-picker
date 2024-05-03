@@ -1,0 +1,120 @@
+.weekday-picker {
+  margin: auto;
+  width: 400px;
+  margin-top: 30px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(238, 238, 238);
+  letter-spacing: 3px;
+}
+
+.calendar {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #1b1d24;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-bottom: 1px solid rgb(118, 118, 118);
+}
+
+.date-input {
+  margin-left: 5px;
+  padding: 5px 15px;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 2px;
+  background-color: transparent !important;
+  color: white;
+}
+
+.date-input:hover {
+  border: 1px solid #f2f2f2;
+}
+
+.month-selector {
+  padding: 5px 15px;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 2px;
+  background-color: transparent !important;
+  color: white;
+}
+
+.month-selector:hover {
+  border: 1px solid #f2f2f2;
+}
+
+.date-cells {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  padding: 8px;
+}
+
+.date-cell {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.date-cell:hover {
+  border: 1px solid #f2f2f2;
+}
+
+.selected {
+  background-color: #f2f2f2;
+  color: #10131a;
+}
+
+.weekend {
+  background-color: transparent !important;
+  color: rgb(151, 151, 151);
+}
+
+.weekend:hover {
+  background-color: transparent !important;
+  color: rgb(151, 151, 151);
+  border: none;
+  cursor: not-allowed;
+}
+
+.selected-range {
+  font-size: 16px;
+  margin-top: 5px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.predefined-range {
+  display: flex;
+  justify-content: center;
+}
+
+.prerange-btn {
+  background: none;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+  font-size: 14px;
+  color: #f2f2f2;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+
+.prerange-btn:hover {
+  background-color: #f2f2f2;
+  color: #10131a;
+}
+
+.text-range{
+  color: #8e8e8e;
+}
